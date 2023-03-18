@@ -59,7 +59,6 @@ export default abstract class BaseRestClient {
       /** inject custom rquest options based on axios specs - see axios docs for more guidance on AxiosRequestConfig: https://github.com/axios/axios#request-config */
       ...networkOptions,
       headers: {
-        'X-CHANNEL-API-CODE': 'hbnni',
         'Content-Type': 'application/json',
         locale: 'en-US',
       },
